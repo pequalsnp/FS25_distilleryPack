@@ -1,0 +1,121 @@
+<map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../../shared/xml/schema/fillTypes.xsd">
+  <fillTypes>
+    <fillType name="BARLEY_MALT" title="Barley Malt" showOnPriceTable="true"
+      isBulkType="true" unitShort="$l10n_unit_literShort">
+      <physics massPerLiter="0.68" maxPhysicalSurfaceAngle="15" />
+      <economy pricePerLiter="0.450">
+        <factors>
+          <factor period="1" value="1.00" />
+          <factor period="2" value="1.07" />
+          <factor period="3" value="0.99" />
+          <factor period="4" value="0.94" />
+          <factor period="5" value="0.85" />
+          <factor period="6" value="0.81" />
+          <factor period="7" value="0.86" />
+          <factor period="8" value="0.99" />
+          <factor period="9" value="1.08" />
+          <factor period="10" value="1.13" />
+          <factor period="11" value="1.21" />
+          <factor period="12" value="1.08" />
+        </factors>
+      </economy>
+      <image hud="$dataS/menu/hud/fillTypes/hud_fill_barley.png" />
+      <pallet filename="$data/objects/pallets/fillablePallet/fillablePallet.xml" />
+      <textures diffuse="$data/fillPlanes/barley_diffuse.png" unitSize="0.5" blendContrast="0.2"
+        noiseScale="0.5" noiseSharpness="0.5" porosityAtZeroRoughness="0.9"
+        porosityAtFullRoughness="1" normal="$data/fillPlanes/barley_normal.png"
+        height="$data/fillPlanes/barley_height.png"
+        displacement="$data/fillPlanes/barley_displacement.png" displacementMaxHeight="0.2"
+        firmness="0.3" viscosity="0.5"
+        distance="$data/fillPlanes/distance/barleyDistance_diffuse.png" />
+    </fillType>
+    <fillType name="MOONSHINE" title="Moonshine" showOnPriceTable="true"
+      isBulkType="true" unitShort="$l10n_unit_literShort">
+      <physics massPerLiter="1" maxPhysicalSurfaceAngle="0" />
+      <economy pricePerLiter="0.8">
+        <factors>
+          <factor period="1" value="1.00" />
+          <factor period="2" value="1.07" />
+          <factor period="3" value="0.99" />
+          <factor period="4" value="0.94" />
+          <factor period="5" value="0.85" />
+          <factor period="6" value="0.81" />
+          <factor period="7" value="0.86" />
+          <factor period="8" value="0.99" />
+          <factor period="9" value="1.08" />
+          <factor period="10" value="1.13" />
+          <factor period="11" value="1.21" />
+          <factor period="12" value="1.08" />
+        </factors>
+      </economy>
+      <image hud="$dataS/menu/hud/fillTypes/hud_fill_barley.png" />
+      <pallet filename="$data/objects/pallets/goatMilkCanPallet/goatMilkCanPallet.xml" />
+    </fillType>
+    <fillType name="WHISKY" title="Whisky" showOnPriceTable="true"
+      isBulkType="true" unitShort="$l10n_unit_literShort">
+      <physics massPerLiter="1" maxPhysicalSurfaceAngle="0" />
+      <economy pricePerLiter="0.8">
+        <factors>
+          <factor period="1" value="1.00" />
+          <factor period="2" value="1.07" />
+          <factor period="3" value="0.99" />
+          <factor period="4" value="0.94" />
+          <factor period="5" value="0.85" />
+          <factor period="6" value="0.81" />
+          <factor period="7" value="0.86" />
+          <factor period="8" value="0.99" />
+          <factor period="9" value="1.08" />
+          <factor period="10" value="1.13" />
+          <factor period="11" value="1.21" />
+          <factor period="12" value="1.08" />
+        </factors>
+      </economy>
+      <image hud="$dataS/menu/hud/fillTypes/hud_fill_barley.png" />
+      <pallet filename="$data/objects/pallets/goatMilkCanPallet/goatMilkCanPallet.xml" />
+    </fillType>
+    <fillType name="RUM" title="Rum" showOnPriceTable="true"
+      isBulkType="true" unitShort="$l10n_unit_literShort">
+      <physics massPerLiter="1" maxPhysicalSurfaceAngle="0" />
+      <economy pricePerLiter="0.8">
+        <factors>
+          <factor period="1" value="1.00" />
+          <factor period="2" value="1.07" />
+          <factor period="3" value="0.99" />
+          <factor period="4" value="0.94" />
+          <factor period="5" value="0.85" />
+          <factor period="6" value="0.81" />
+          <factor period="7" value="0.86" />
+          <factor period="8" value="0.99" />
+          <factor period="9" value="1.08" />
+          <factor period="10" value="1.13" />
+          <factor period="11" value="1.21" />
+          <factor period="12" value="1.08" />
+        </factors>
+      </economy>
+      <image hud="$dataS/menu/hud/fillTypes/hud_fill_barley.png" />
+      <pallet filename="$data/objects/pallets/goatMilkCanPallet/goatMilkCanPallet.xml" />
+    </fillType>
+  </fillTypes>
+  <fillTypeCategories>
+    <fillTypeCategory name="BULK">BARLEY_MALT</fillTypeCategory>
+    <fillTypeCategory name="AUGERWAGON">BARLEY_MALT</fillTypeCategory>
+    <fillTypeCategory name="SHOVEL">BARLEY_MALT</fillTypeCategory>
+    <fillTypeCategory name="FARMSILO">BARLEY_MALT</fillTypeCategory>
+    <fillTypeCategory name="LOADINGVEHICLE">BARLEY_MALT</fillTypeCategory>
+    <fillTypeCategory name="TRAINWAGON">BARLEY_MALT</fillTypeCategory>
+    <fillTypeCategory name="PRODUCT">BARLEY_MALT</fillTypeCategory>
+    <fillTypeCategory name="SELLINGSTATION_PRODUCTSFOOD">BARLEY_MALT</fillTypeCategory>
+    <fillTypeCategory name="TRAINWAGON">BARLEY_MALT</fillTypeCategory>
+    <fillTypeCategory name="LIQUID">MOONSHINE WHISKY RUM</fillTypeCategory>
+    <fillTypeCategory name="PRODUCT">BARLEY_MALT MOONSHINE WHISKY RUM</fillTypeCategory>
+    <fillTypeCategory name="SELLINGSTATION_PRODUCTSFOOD">MOONSHINE WHISKY RUM</fillTypeCategory>
+  </fillTypeCategories>
+  <fillTypeSound fillTypes="BARLEY_MALT">
+    <sound template="grainSmallFill" />
+  </fillTypeSound>
+  <fillTypeSound
+    fillTypes="MOONSHINE WHISKY">
+    <sound template="defaultRefuelSound" />
+  </fillTypeSound>
+</map>
