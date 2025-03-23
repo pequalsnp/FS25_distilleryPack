@@ -103,36 +103,36 @@
     <productionPoint>
         <productions sharedThroughputCapacity="true">
             <production id="sugarShine" name="Sugar Shine"
-                cyclesPerHour="2"
+                cyclesPerHour="20"
                 costsPerActiveHour="10">
                 <inputs>
-                    <input fillType="SUGAR" amount="250" />
-                    <input fillType="WATER" amount="1000" />
+                    <input fillType="SUGAR" amount="25" />
+                    <input fillType="WATER" amount="100" />
                 </inputs>
                 <outputs>
-                    <output fillType="MOONSHINE" amount="400" />
+                    <output fillType="MOONSHINE" amount="40" />
                 </outputs>
             </production>
             <production id="whisky" name="Whisky"
-                cyclesPerHour="1"
+                cyclesPerHour="10"
                 costsPerActiveHour="10">
                 <inputs>
-                    <input fillType="BARLEY_MALT" amount="1000" />
-                    <input fillType="WATER" amount="1000" />
+                    <input fillType="BARLEY_MALT" amount="100" />
+                    <input fillType="WATER" amount="100" />
                 </inputs>
                 <outputs>
-                    <output fillType="WHISKY" amount="400" />
+                    <output fillType="WHISKY" amount="40" />
                 </outputs>
             </production>
             <production id="rum" name="Rum"
-                cyclesPerHour="105"
+                cyclesPerHour="10"
                 costsPerActiveHour="10">
                 <inputs>
-                    <input fillType="SUGARCANE" amount="1000" />
-                    <input fillType="WATER" amount="1000" />
+                    <input fillType="SUGARCANE" amount="100" />
+                    <input fillType="WATER" amount="100" />
                 </inputs>
                 <outputs>
-                    <output fillType="RUM" amount="400" />
+                    <output fillType="RUM" amount="40" />
                 </outputs>
             </production>
         </productions>

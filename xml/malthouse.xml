@@ -101,7 +101,7 @@
 
     <productionPoint>
         <productions>
-            <production id="barley_malt" name="Malt Barley" cyclesPerHour="4"
+            <production id="barley_malt" name="Malt Barley" cyclesPerHour="1.1"
                 costsPerActiveHour="2.5">
                 <inputs>
                     <input fillType="BARLEY" amount="1000" />

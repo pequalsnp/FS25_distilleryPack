@@ -4,7 +4,7 @@
     <fillType name="BARLEY_MALT" title="Barley Malt" showOnPriceTable="true"
       isBulkType="true" unitShort="$l10n_unit_literShort">
       <physics massPerLiter="0.68" maxPhysicalSurfaceAngle="15" />
-      <economy pricePerLiter="0.450">
+      <economy pricePerLiter="0.700">
         <factors>
           <factor period="1" value="1.00" />
           <factor period="2" value="1.07" />
@@ -33,7 +33,7 @@
     <fillType name="MOONSHINE" title="Moonshine" showOnPriceTable="true"
       isBulkType="true" unitShort="$l10n_unit_literShort">
       <physics massPerLiter="1" maxPhysicalSurfaceAngle="0" />
-      <economy pricePerLiter="0.8">
+      <economy pricePerLiter="0.9">
         <factors>
           <factor period="1" value="1.00" />
           <factor period="2" value="1.07" />
@@ -55,7 +55,7 @@
     <fillType name="WHISKY" title="Whisky" showOnPriceTable="true"
       isBulkType="true" unitShort="$l10n_unit_literShort">
       <physics massPerLiter="1" maxPhysicalSurfaceAngle="0" />
-      <economy pricePerLiter="0.8">
+      <economy pricePerLiter="3.5">
         <factors>
           <factor period="1" value="1.00" />
           <factor period="2" value="1.07" />
@@ -77,7 +77,7 @@
     <fillType name="RUM" title="Rum" showOnPriceTable="true"
       isBulkType="true" unitShort="$l10n_unit_literShort">
       <physics massPerLiter="1" maxPhysicalSurfaceAngle="0" />
-      <economy pricePerLiter="0.8">
+      <economy pricePerLiter="1.1">
         <factors>
           <factor period="1" value="1.00" />
           <factor period="2" value="1.07" />
