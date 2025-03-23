@@ -19,10 +19,10 @@
 
 # New Production Chains
 
-TODO: Economics are completely random at this point, needs balancing
+TODO: Economics are a first pass, needs further balancing
 
-|Input|Output|
-|-----|------|
+|Input|Output|Building|
+|-----|------|--------|
 |Barley|Malted Barley|Malthouse|
 |Malted Barley|Whisky|Distillery|
 |Sugar|Moonshine|Distillery|
