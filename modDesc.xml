@@ -17,6 +17,8 @@
         <storeItem xmlFilename="xml/malthouse.xml" />
     </storeItems>
 
+    <fillTypes filename="filltypes/filltypes.xml" />
+
     <l10n>
 
     </l10n>
