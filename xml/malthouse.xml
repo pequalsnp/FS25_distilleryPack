@@ -101,19 +101,20 @@
 
     <productionPoint>
         <productions>
-            <production id="barley_malt" name="Malt Barley" cyclesPerHour="220"
+            <production id="barley_malt" name="Malt Barley" cyclesPerHour="4"
                 costsPerActiveHour="2.5">
                 <inputs>
-                    <input fillType="BARLEY" amount="2" />
+                    <input fillType="BARLEY" amount="1000" />
                 </inputs>
                 <outputs>
-                    <output fillType="TODO" amount="1" />
+                    <output fillType="BARLEY_MALT" amount="1000" />
                 </outputs>
             </production>
         </productions>
 
         <storage isExtension="false" fillLevelSyncThreshold="50">
             <capacity fillType="BARLEY" capacity="2000000" />
+            <capacity fillType="BARLEY_MALT" capacity="2000000" />
         </storage>
 
         <sellingStation node="sellingStation" supportsExtension="false">
@@ -124,7 +125,7 @@
         <loadingStation node="loadingTrigger" supportsExtension="false">
             <loadTrigger triggerNode="loadingTrigger" fillLitersPerSecond="100000"
                 dischargeNode="dischargeNode"
-                fillTypes="TODO"
+                fillTypes="BARLEY_MALT"
                 aiNode="aiLoadingNode">
                 <sounds>
                     <loading template="silosActive" />

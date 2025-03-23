@@ -7,16 +7,14 @@
         <en>Distillery Pack</en>
     </title>
     <description>
-        <en><![CDATA[TODO: Description
-
-]]></en>
+        <en><![CDATA[TODO: Description]]></en>
     </description>
     <iconFilename></iconFilename>
     <multiplayer supported="true" />
 
     <storeItems>
-        <storeItem rootNode="placeable" xmlFilename="xml/distillery.xml" />
-        <storeItem rootNode="placeable" xmlFilename="xml/malthouse.xml" />
+        <storeItem xmlFilename="xml/distillery.xml" />
+        <storeItem xmlFilename="xml/malthouse.xml" />
     </storeItems>
 
     <l10n>

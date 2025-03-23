@@ -1,5 +1,5 @@
 <map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:noNamespaceSchemaLocation="../../shared/xml/schema/fillTypes.xsd">
+  xsi:noNamespaceSchemaLocation="https://validation.gdn.giants-software.com/xml/fs25/fillTypes.xsd">
   <fillTypes>
     <fillType name="BARLEY_MALT" title="Barley Malt" showOnPriceTable="true"
       isBulkType="true" unitShort="$l10n_unit_literShort">
@@ -97,6 +97,7 @@
       <pallet filename="$data/objects/pallets/goatMilkCanPallet/goatMilkCanPallet.xml" />
     </fillType>
   </fillTypes>
+
   <fillTypeCategories>
     <fillTypeCategory name="BULK">BARLEY_MALT</fillTypeCategory>
     <fillTypeCategory name="AUGERWAGON">BARLEY_MALT</fillTypeCategory>
@@ -111,11 +112,14 @@
     <fillTypeCategory name="PRODUCT">BARLEY_MALT MOONSHINE WHISKY RUM</fillTypeCategory>
     <fillTypeCategory name="SELLINGSTATION_PRODUCTSFOOD">MOONSHINE WHISKY RUM</fillTypeCategory>
   </fillTypeCategories>
-  <fillTypeSound fillTypes="BARLEY_MALT">
-    <sound template="grainSmallFill" />
-  </fillTypeSound>
-  <fillTypeSound
-    fillTypes="MOONSHINE WHISKY">
-    <sound template="defaultRefuelSound" />
-  </fillTypeSound>
+
+  <fillTypeSounds>
+    <fillTypeSound fillTypes="BARLEY_MALT">
+      <sound template="grainSmallFill" />
+    </fillTypeSound>
+    <fillTypeSound
+      fillTypes="MOONSHINE WHISKY RUM">
+      <sound template="defaultRefuelSound" />
+    </fillTypeSound>
+  </fillTypeSounds>
 </map>

@@ -101,35 +101,38 @@
     </triggerMarkers>
 
     <productionPoint>
-        <productions sharedThroughputCapacity="false">
+        <productions sharedThroughputCapacity="true">
             <production id="sugarShine" name="Sugar Shine"
-                cyclesPerHour="105"
-                costsPerActiveHour="1">
+                cyclesPerHour="2"
+                costsPerActiveHour="10">
                 <inputs>
-                    <input fillType="SUGAR" amount="5" />
+                    <input fillType="SUGAR" amount="250" />
+                    <input fillType="WATER" amount="1000" />
                 </inputs>
                 <outputs>
-                    <output fillType="MOONSHINE" amount="4" />
+                    <output fillType="MOONSHINE" amount="400" />
                 </outputs>
             </production>
-            <production id="whisky" name="Sugar Shine"
-                cyclesPerHour="105"
-                costsPerActiveHour="1">
+            <production id="whisky" name="Whisky"
+                cyclesPerHour="1"
+                costsPerActiveHour="10">
                 <inputs>
-                    <input fillType="BARLEY_MALT" amount="5" />
+                    <input fillType="BARLEY_MALT" amount="1000" />
+                    <input fillType="WATER" amount="1000" />
                 </inputs>
                 <outputs>
-                    <output fillType="WHISKY" amount="4" />
+                    <output fillType="WHISKY" amount="400" />
                 </outputs>
             </production>
-            <production id="rum" name="Sugar Shine"
+            <production id="rum" name="Rum"
                 cyclesPerHour="105"
-                costsPerActiveHour="1">
+                costsPerActiveHour="10">
                 <inputs>
-                    <input fillType="SUGARCANE" amount="5" />
+                    <input fillType="SUGARCANE" amount="1000" />
+                    <input fillType="WATER" amount="1000" />
                 </inputs>
                 <outputs>
-                    <output fillType="RUM" amount="4" />
+                    <output fillType="RUM" amount="400" />
                 </outputs>
             </production>
         </productions>
@@ -143,11 +146,12 @@
             <capacity fillType="MOONSHINE" capacity="2000000" />
             <capacity fillType="WHISKY" capacity="2000000" />
             <capacity fillType="RUM" capacity="2000000" />
+            <capacity fillType="WATER" capacity="100000" />
         </storage>
 
         <sellingStation node="sellingStationProduction" supportsExtension="false">
             <unloadTrigger exactFillRootNode="exactFillNode" aiNode="unloadTriggerAINode"
-                fillTypes="BARLEY_MALT SUGARCANE SUGAR POTATO MAIZE" />
+                fillTypes="BARLEY_MALT SUGARCANE SUGAR POTATO MAIZE WATER" />
         </sellingStation>
 
         <palletSpawner>
